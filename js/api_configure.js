@@ -1,15 +1,13 @@
 
 "use strict";
 
-
 /**
  * 
  * import 
  */
 import { urlEncode } from './utils/urlEncode.js'
+import { API_KEY } from './api_key.js';
 
-
-const /**{String} */ API_KEY = "GOAVXfJtbuKUbycqcRC7DTun0JQ4LZOYFR3HzoZoL83nzlfHkUI3lCWf";
 
 const /**{Function} */ headers = new Headers();
 headers.append("Authorization", API_KEY);
